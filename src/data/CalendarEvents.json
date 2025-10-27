@@ -1,0 +1,48 @@
+[
+  {
+    "id": "chevening-uk-2025",
+    "name": "Chevening Scholarship",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "levels": ["S2", "S3"],
+    "openDate": "2025-08-01",
+    "closeDate": "2025-11-01",
+    "description": "Beasiswa penuh dari pemerintah Inggris untuk studi pascasarjana di universitas mana pun di Inggris.",
+    "requirements": [
+      "Gelar sarjana dengan predikat baik",
+      "Minimal 2 tahun pengalaman kerja",
+      "Memenuhi persyaratan bahasa Inggris universitas"
+    ],
+    "benefits": [
+      "Biaya kuliah penuh",
+      "Tunjangan hidup bulanan",
+      "Tiket pesawat pulang-pergi",
+      "Tunjangan kedatangan dan kepulangan"
+    ],
+    "officialLink": "https://www.chevening.org/",
+    "coordinates": [-0.1278, 51.5074]
+  },
+  {
+    "id": "aas-aus-2025",
+    "name": "Australia Awards Scholarship",
+    "country": "Australia",
+    "countryCode": "AU",
+    "levels": ["S2", "S3"],
+    "openDate": "2025-02-01",
+    "closeDate": "2025-04-30",
+    "description": "Beasiswa dari pemerintah Australia untuk studi di universitas-universitas terkemuka di Australia.",
+    "requirements": [
+      "IPK minimal 2.9",
+      "IELTS 5.5 atau setara",
+      "Tidak untuk S1 atau pelatihan jangka pendek"
+    ],
+    "benefits": [
+      "Biaya kuliah penuh",
+      "Tunjangan hidup",
+      "Asuransi kesehatan",
+      "Dukungan akademik tambahan"
+    ],
+    "officialLink": "https://www.australiaawardsindonesia.org/",
+    "coordinates": [151.2093, -33.8688]
+  }
+]

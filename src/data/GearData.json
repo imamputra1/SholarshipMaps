@@ -1,0 +1,89 @@
+{
+  "gearType": [
+    {
+      "gear": "Hardware / Computers",
+      "gearList": [
+        {
+          "item": "AMD Ryzen 9 5900x (16 Core), 64GB of RAM, RTX 3090, 3TB SSD, 1TB HDD",
+          "desc": "Mostly use for my work and game, hehehe",
+          "type": ["computer"]
+        },
+        {
+          "item": "Lenovo Thinkpad p15 Gen 2 workstation with Xeon W-11955M, 64GB of ECC RAM, RTX A5000, 2TB SSD",
+          "desc": "Mostly used for artificial intelligence research",
+          "type": ["computer", "thinkpad"]
+        },
+        {
+          "item": "Steelseries Apex 7",
+          "desc": "Actually i don't know about mechanical keyboard",
+          "type": ["keyboard"]
+        },
+        {
+          "item": "Xtrfy M4 Wireless",
+          "desc": "If you have Trypophobia, don't buy it okay.",
+          "type": ["mouse", "logitech"]
+        }
+      ]
+    },
+    {
+      "gear": "Hardware / Monitors",
+      "gearList": [
+        {
+          "item": "Lenovo G34w-30 34'' VA",
+          "desc": "Hehehe, im still use Lenovo product",
+          "type": ["monitor", "external display"]
+        }
+      ]
+    },
+    {
+      "gear": "Hardware / Audio",
+      "gearList": [
+        {
+          "item": "KZ ZAR",
+          "desc": "Actually i don't use Headset, not like to much",
+          "type": ["headset"]
+        }
+      ]
+    },
+    {
+      "gear": "Operating System",
+      "gearList": [
+        {
+         "item": "Linux from scratch",
+         "desc": "No use debian or arch, just LFS, yes, LFS",
+         "type": ["OS"]
+        },
+        {
+          "item": "Windows 11",
+          "desc": "Dont't worry, im use only for game",
+          "type": ["OS"]
+        }
+      ]
+    },
+    {
+      "gear": "Software",
+      "gearList": [
+        {
+          "item": "BSPWM (Xorg)",
+          "desc": "im use bspwm for window manager while working",
+          "type": ["window manager"]
+        },
+        {
+          "item": "Vscodium",
+          "desc": "I Think more better than original vscode",
+          "type": ["IDE"]
+        },
+        {
+          "item": "VIM (neovim)",
+          "desc": "A BLAZINGLY FAST text editor that i use when am on the terminal.",
+          "type": ["editor"]
+        },
+        {
+          "item": "Alacritty, Kitty with Starship",
+          "desc": "Blazing fast fast fast",
+          "type": ["terminal"]
+        }
+      ]
+    }
+  ]
+}

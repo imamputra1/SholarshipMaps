@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter:wght@100;200;300;400;500;600;700;800;900&family=Martian+Mono:wght@300;400;500;600;700&family=Merriweather:wght@300;400;700;900&display=swap");
+@import 'react-tooltip/dist/react-tooltip.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  font-family: "Martian Mono", monospace;
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* IE 10 and IE 11 */
+  user-select: none;
+  /* Standard syntax */
+}
+
+.loader div:first-child {
+  animation-delay: 0.1s;
+}
+
+.loader div:first-child(2) {
+  animation-delay: 0.2s;
+}
+
+.loader div:first-child(3) {
+  animation-delay: 0.3s;
+}
+
+.custom-size {
+  @apply md:w-[calc(100vw-2.5rem)] md:h-[calc(100vh-2.5rem)] w-[calc(100vw-2rem)] h-[calc(100vh-2rem)];
+}
+
+input[type="checkbox"]:checked+label {
+  color: white;
+}
+
+input[type="checkbox"]:hover {
+  outline: 1px solid #1e3448;
+}
+
+.react-syntax-highlighter-line-number {
+  @apply text-[#607B96];
+}
+
+code .token {
+  @apply text-[#607B96] !important;
+}
+
+.efofCE {
+  @apply bg-transparent p-0 !important;
+}
+
+.efofCE span {
+  @apply bg-transparent !important;
+}
+
+.sc-bcXHqe.kBPKLM {
+  @apply hidden !important;
+}
+
+.loHkWQ {
+  @apply bg-transparent p-0 !important;
+}
+
+.loHkWQ span {
+  @apply bg-transparent !important;
+}
+
+.sc-bcXHqe.iCXprV {
+  @apply hidden !important;
+}
+
+/* ... di bagian bawah file src/index.css ... */
+
+/* Animasi untuk modal (fade-in dan scale-up) */
+@keyframes fadeInScaleUp {
+  from {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* Animasi untuk pesawat (terbang masuk) */
+@keyframes flyIn {
+  from {
+    transform: translateX(-100px) rotate(-15deg);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+/* Kelas (class) yang akan kita gunakan di React */
+.animate-fade-scale {
+  /* Durasi 0.4 detik */
+  animation: fadeInScaleUp 0.4s ease-out forwards;
+}
+
+.animate-fly-in {
+  /* Durasi 0.8 detik, delay 0.2 detik */
+  animation: flyIn 0.8s 0.2s ease-out forwards;
+}
+
+/* Style Kustom untuk Tooltip Tema Gelap Kita */
+.scholarship-tooltip {
+  background-color: #1f2937 !important;
+  /* Warna abu-abu gelap Anda */
+  color: #FFF !important;
+  border: 1px solid #404a5c !important;
+  border-radius: 8px !important;
+  font-size: 14px !important;
+  padding: 8px 12px !important;
+  max-width: 250px !important;
+  opacity: 1 !important;
+  z-index: 9999 !important;
+  /* Memastikan tooltip di atas segalanya */
+}
+
+/* Style untuk bendera di dalam tooltip */
+.scholarship-tooltip svg {
+  display: inline-block;
+  margin-right: 8px;
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: middle;
+}
+
+/* Style untuk nama negara (bold) di dalam tooltip */
+.scholarship-tooltip strong {
+  vertical-align: middle;
+  font-weight: 700;
+}
