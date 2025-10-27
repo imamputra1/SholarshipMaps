@@ -1,4 +1,2 @@
-personal web portofolio
-try to make this like my nvim
-
+Sedang dalam proses!!!
 ![image](.github/banner.png)
